@@ -25,6 +25,7 @@ import (
 	"github.com/SkyAPM/go2sky/propagation"
 	"github.com/SkyAPM/go2sky/reporter/grpc/common"
 	v3 "github.com/SkyAPM/go2sky/reporter/grpc/language-agent"
+	"log"
 )
 
 func newSegmentSpan(defaultSpan *defaultSpan, parentSpan segmentSpan) (s segmentSpan, err error) {
@@ -92,6 +93,12 @@ type segmentSpanImpl struct {
 func (s *segmentSpanImpl) End() {
 	s.defaultSpan.End()
 	go func() {
+		defer func(){
+			err := recover()
+			if err != nil {
+				log.Printf("Segment end() error: %v",err)
+			}
+		}()
 		s.Context().collect <- s
 	}()
 }
