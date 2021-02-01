@@ -22,7 +22,7 @@ import (
 	"testing"
 	"time"
 
-	v3 "github.com/SkyAPM/go2sky/reporter/grpc/language-agent"
+	v3 "codehub-cn-east-2.devcloud.huaweicloud.com/jgz00001/go2sky.git/reporter/grpc/language-agent"
 )
 
 func Test_defaultSpan_SetOperationName(t *testing.T) {
