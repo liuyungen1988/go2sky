@@ -63,6 +63,8 @@ func NewGRPCReporter(serverAddr string, opts ...GRPCReporterOption) (go2sky.Repo
 
 	ctx, cancel := context.WithTimeout(context.Background(), 2*time.Second)
 
+	defer cancel()
+
 	conn, err := grpc.DialContext(ctx, serverAddr, credsDialOption)
 
 	if err != nil {
