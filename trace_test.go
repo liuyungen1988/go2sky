@@ -23,7 +23,7 @@ import (
 	"sync"
 	"testing"
 
-	"codehub-cn-east-2.devcloud.huaweicloud.com/jgz00001/go2sky.git/propagation"
+	"github.com/liuyungen1988/go2sky/propagation"
 )
 
 func TestTracerInit(t *testing.T) {

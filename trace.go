@@ -20,11 +20,11 @@ package go2sky
 import (
 	"context"
 
-	"codehub-cn-east-2.devcloud.huaweicloud.com/jgz00001/go2sky.git/internal/idgen"
+	"github.com/liuyungen1988/go2sky/internal/idgen"
 	"github.com/pkg/errors"
 
-	"codehub-cn-east-2.devcloud.huaweicloud.com/jgz00001/go2sky.git/internal/tool"
-	"codehub-cn-east-2.devcloud.huaweicloud.com/jgz00001/go2sky.git/propagation"
+	"github.com/liuyungen1988/go2sky/internal/tool"
+	"github.com/liuyungen1988/go2sky/propagation"
 )
 
 const (

@@ -22,7 +22,7 @@ import (
 	"log"
 	"os"
 
-	go2sky "codehub-cn-east-2.devcloud.huaweicloud.com/jgz00001/go2sky.git"
+	go2sky "github.com/liuyungen1988/go2sky"
 )
 
 func NewLogReporter() (go2sky.Reporter, error) {

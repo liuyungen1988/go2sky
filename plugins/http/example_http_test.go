@@ -24,8 +24,8 @@ import (
 	"net/http/httptest"
 	"time"
 
-	"codehub-cn-east-2.devcloud.huaweicloud.com/jgz00001/go2sky.git"
-	"codehub-cn-east-2.devcloud.huaweicloud.com/jgz00001/go2sky.git/reporter"
+	"github.com/liuyungen1988/go2sky"
+	"github.com/liuyungen1988/go2sky/reporter"
 )
 
 func ExampleNewServerMiddleware() {

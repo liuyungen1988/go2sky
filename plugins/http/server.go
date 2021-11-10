@@ -23,10 +23,10 @@ import (
 	"strconv"
 	"time"
 
-	go2sky "codehub-cn-east-2.devcloud.huaweicloud.com/jgz00001/go2sky.git"
-	"codehub-cn-east-2.devcloud.huaweicloud.com/jgz00001/go2sky.git/internal/tool"
-	"codehub-cn-east-2.devcloud.huaweicloud.com/jgz00001/go2sky.git/propagation"
-	v3 "codehub-cn-east-2.devcloud.huaweicloud.com/jgz00001/go2sky.git/reporter/grpc/language-agent"
+	go2sky "github.com/liuyungen1988/go2sky"
+	"github.com/liuyungen1988/go2sky/internal/tool"
+	"github.com/liuyungen1988/go2sky/propagation"
+	v3 "github.com/liuyungen1988/go2sky/reporter/grpc/language-agent"
 )
 
 const (

@@ -1,4 +1,4 @@
-module codehub-cn-east-2.devcloud.huaweicloud.com/jgz00001/go2sky.git
+module github.com/liuyungen1988/go2sky
 
 go 1.12
 

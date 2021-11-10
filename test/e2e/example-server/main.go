@@ -24,9 +24,9 @@ import (
 	"net/http"
 	"time"
 
-	go2sky "codehub-cn-east-2.devcloud.huaweicloud.com/jgz00001/go2sky.git"
-	httpPlugin "codehub-cn-east-2.devcloud.huaweicloud.com/jgz00001/go2sky.git/plugins/http"
-	"codehub-cn-east-2.devcloud.huaweicloud.com/jgz00001/go2sky.git/reporter"
+	go2sky "github.com/liuyungen1988/go2sky"
+	httpPlugin "github.com/liuyungen1988/go2sky/plugins/http"
+	"github.com/liuyungen1988/go2sky/reporter"
 )
 
 var (

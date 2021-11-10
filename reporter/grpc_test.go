@@ -25,12 +25,12 @@ import (
 	"testing"
 	"time"
 
-	go2sky "codehub-cn-east-2.devcloud.huaweicloud.com/jgz00001/go2sky.git"
-	"codehub-cn-east-2.devcloud.huaweicloud.com/jgz00001/go2sky.git/propagation"
-	"codehub-cn-east-2.devcloud.huaweicloud.com/jgz00001/go2sky.git/reporter/grpc/common"
-	v3 "codehub-cn-east-2.devcloud.huaweicloud.com/jgz00001/go2sky.git/reporter/grpc/language-agent"
-	managementv3 "codehub-cn-east-2.devcloud.huaweicloud.com/jgz00001/go2sky.git/reporter/grpc/management"
-	"codehub-cn-east-2.devcloud.huaweicloud.com/jgz00001/go2sky.git/reporter/grpc/management/mock_management"
+	go2sky "github.com/liuyungen1988/go2sky"
+	"github.com/liuyungen1988/go2sky/propagation"
+	"github.com/liuyungen1988/go2sky/reporter/grpc/common"
+	v3 "github.com/liuyungen1988/go2sky/reporter/grpc/language-agent"
+	managementv3 "github.com/liuyungen1988/go2sky/reporter/grpc/management"
+	"github.com/liuyungen1988/go2sky/reporter/grpc/management/mock_management"
 	"github.com/golang/mock/gomock"
 	"google.golang.org/grpc/credentials"
 )
